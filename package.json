@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "node Bend/index.js",
     "build": "npm install && npm install --prefix Fend && npm run build --prefix Fend",
-    "start": "nodemon Bend/index.js"
+    "start": "node Bend/index.js"
   },
   "author": "",
   "license": "ISC",
